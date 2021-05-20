@@ -9,12 +9,22 @@
         <!--------------------------------Favicon---------------------------------------------------->
         <link rel="icon" type="image/x-icon" href="favicon-32x32.png" />
         <!--------------------------------- Font Awesome icons (free version)------------------------>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-----------------------------------------------Google fonts--------------------------------->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!---------------------------------------------------Core theme CSS (includes Bootstrap)---------------------------------->
         <link href="css/styles.css" rel="stylesheet" />
+        <!--------------------------------------------------Bootstrap 5------------------------------------------------------------------>
+       
+        <link rel="stylesheet" media="all" href="css/style.css">-->
+
+        <!--------------------------------------------Java Script------------------------------------------->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+        <script src="/js/bootstrap.bundle.min.js"></script>
+        <script src="/anijs-master/anijs-min.js"></script>
+
     </head>
 
 
@@ -30,6 +40,9 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#categoria1">categoria 1</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#categoria2">categoria 2</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#videos">videos</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -49,14 +62,16 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!---------------------------------------------------Masthead Subheading------------------------------------------------------------>
-                <p class="masthead-subheading font-weight-light mb-0">Hi! I'm freelance Graphic Artist. Nice to meet you, I look forward to working with you in the future and creating something great together✨. Thank you very much for your visit!</p>
+                <p class="masthead-subheading font-weight-light ">Hi! I'm freelance Graphic Artist. Nice to meet you, I look forward to working with you in the future and creating something great together✨. Thank you very much for your visit!</p>
             </div>
         </header>
         <!----------------------------------------------------------Portfolio Section--------------------------------------------------------------->
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
+        <section class="page-section portfolio " id="portfolio">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary  ">Portfolio</h2>
+           
+            <div class="container my-5">
                 <!------------------------------------------------Portfolio Section Heading--------------------------------------------------------->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 mt-5"id="categoria1">Categoria 1</h2>
                 <!-----------------------------------------------------Icon Divider------------------------------------------------------------------>
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -122,11 +137,117 @@
                 </div>
             </div>
         </section>
-
-        <section class="page-section categoria 1" id="categoria 1">
-            <div class="container">
+        
+        <section class="page-section portfolio ">
+            <div class="container mt-5">
                 <!------------------------------------------------Portfolio Section Heading--------------------------------------------------------->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">categoria 1</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 mt-5"id="categoria2">Categoria 2</h2>
+                <!-----------------------------------------------------Icon Divider------------------------------------------------------------------>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!--------------------------------------------------Portfolio Grid Items----------------------------------------------------->
+                <div class="row justify-content-center">
+                    <!------------------------------------------------Portfolio Item 1------------------------------------------------------->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="imagen1.png" alt="png" />
+                        </div>
+                    </div>
+                    <!-----------------------------------------------------Portfolio Item 2------------------------------------------------->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="imagen2.jpg" alt="jpg" />
+                        </div>
+                    </div>
+                    <!----------------------------------Portfolio Item 3---------------------------------->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="imagen3.jpg" alt="jpg" />
+                        </div>
+                    </div>
+                    <!----------------------------------------Portfolio Item 4--------------------------------->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="imagen4.jpg" alt="jpg" />
+                        </div>
+                    </div>
+                    <!-----------------------------------------Portfolio Item 5----------------------------------------->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="imagen5.jpg" alt="jpg" />
+                        </div>
+                    </div>
+                    <!------------------------------------------Portfolio Item 6------------------------------->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="imagen6.jpg" alt="jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <header class="page-section portfolio" >
+            <h2 id="videos" class="page-section-heading text-center text-uppercase text-secondary mb-0">Videos</h2>
+              <div> 
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+              <div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      
+                        <iframe class="d-block w-100" width="660" height="515" src="https://www.youtube.com/embed/Grx0hb-g1pw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe class="d-block w-100" width="660" height="515" src="https://www.youtube.com/embed/Grx0hb-g1pw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe class="d-block w-100" width="660" height="515" src="https://www.youtube.com/embed/Grx0hb-g1pw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+          </header>
+
 
 
 
@@ -169,9 +290,12 @@
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Around the Web</h4>
                         <a class="btn btn-outline-light btn-social mx-1" href="https://www.fiverr.com/byomoi"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/by.omoi/"><i class="fab fa-fw fa-twitter"></i></a>
+                    
                     </div>
-                    <!-- Footer About Text-->
+                    
+                    
+                    
+                    <!----------------------------------------------- Footer About Text---------------------------------------------->
                     <div class="col-lg-4">
                         <h4 class="text-uppercase mb-4">About Freelancer</h4>
                         <p class="lead mb-0">
@@ -182,8 +306,10 @@
                     </div>
                 </div>
             </div>
+
+
         </footer>
-        <!-- Copyright Section-->
+        <!---------------------------------------------------------------Copyright Section------------------------------------------->
         <div class="copyright py-4 text-center text-white">
             <div class="container">
                 <small>
@@ -196,7 +322,7 @@
                 </small>
             </div>
         </div>
-        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <!-------------Scroll to Top Button (Only visible on small and extra-small screen sizes)---------------------------------------->
         <div class="scroll-to-top d-lg-none position-fixed">
             <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
         </div>
@@ -212,9 +338,9 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
+                                    <!-----------------------------Portfolio Modal - Title-------------------------------------->
                                     <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Titulo imagen 1</h2>
-                                    <!-- Icon Divider-->
+                                    <!----------------------------------Icon Divider-------------------------------------------->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
@@ -235,7 +361,7 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 2-->
+        <!------------------------------------------------------------Portfolio Modal 2----------------------------------------------->
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
