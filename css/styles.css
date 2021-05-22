@@ -538,7 +538,7 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-.fondoinicio-background { background-image: url(/fondoinicio.jpg); }
+.fondoinicio-background{ background-image: url(/fondoinicio.jpg); }
 .container,
 .container-fluid,
 .container-xl,
