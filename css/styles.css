@@ -538,8 +538,11 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-.fondoinicio-background{ background-image: url(/fondoinicio.jpg); 
-                          background-repeat: no-repeat
+.fondoinicio-background{ background-image: url(https://cdn.dribbble.com/users/1349920/screenshots/6643864/pattern_4_rgb.jpg); 
+                          background-repeat: no-repeat;
+                          background-size:cover;
+                          background-position:initial;
+                          
 
 }
 .container,
