@@ -538,7 +538,7 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-
+.mi-background { background-image: url(/fondoinicio.jpg); }
 .container,
 .container-fluid,
 .container-xl,
