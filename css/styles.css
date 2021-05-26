@@ -558,6 +558,7 @@ pre code {
   background-size: cover;
 
 }
+
 .fondoporfolio-background{background-attachment:scroll;}
 .container,
 .container-fluid,
@@ -571,6 +572,18 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+/*-------------------------------------Texto Animado opcional---------------------------*/
+
+  
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 576px) {
   .container-sm, .container {
