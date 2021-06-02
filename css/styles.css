@@ -542,7 +542,7 @@ pre code {
                           background-repeat: no-repeat;
                           background-size:cover;
                           background-position:initial;
-                          background-attachment: fixed;
+                          /*background-attachment: fixed;*/
 }
 .video-background { 
    
