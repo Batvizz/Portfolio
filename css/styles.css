@@ -538,8 +538,10 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-.fondoinicio-background{ background-image:url(/imagenes/portada.jpg);
-                        background-repeat: no-repeat;
+.fondoinicio-background{ 
+                          background-image:url(\imagenes\portada.jpg);
+                         
+                          background-repeat: no-repeat;
                           background-size:cover;
                           background-position:initial;
                           background-attachment: fixed;
