@@ -547,6 +547,7 @@ pre code {
   filter:blur(50%)       
 }
 
+
 .texto-contraste{
   filter: brightness(50%);
 }
