@@ -539,7 +539,7 @@ pre code {
   overflow-y: scroll;
 }
 .fondoinicio-background{ 
-                          background-image:url(/imagenes/portada.jpg);
+                          background-image:url(../imagenes/portada.jpg);
                   
                           background-repeat: no-repeat;
                           background-size:cover;
