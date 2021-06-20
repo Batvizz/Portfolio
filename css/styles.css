@@ -539,19 +539,16 @@ pre code {
   overflow-y: scroll;
 }
 .fondoinicio-background{ 
-                          background-image:url(../imagenes/portada.jpg);
-                  
-                          background-repeat: no-repeat;
-                          background-size:cover;
-                          background-position:initial;
-                          background-attachment: fixed;
-                          
-                          
-                        
+  background-image:url(../imagenes/portada.jpg);  
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:initial;
+  background-attachment: fixed;   
+  filter:blur(50%)       
 }
 
 .texto-contraste{
-  filter: brightness(100%);
+  filter: brightness(50%);
 }
 
 .texto-borde {
