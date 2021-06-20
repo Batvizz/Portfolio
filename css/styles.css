@@ -538,11 +538,23 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-.fondoinicio-background{ background-image: url(https://cdn.dribbble.com/users/1349920/screenshots/6643864/pattern_4_rgb.jpg); 
-                          background-repeat: no-repeat;
+.fondoinicio-background{ background-image: url(/imagenes/portada.jpg);  
+                        background-repeat: no-repeat;
                           background-size:cover;
                           background-position:initial;
-                          /*background-attachment: fixed;*/
+                          background-attachment: fixed;
+                          
+                          
+                        
+}
+
+.texto-contraste{
+  filter: brightness(100%);
+}
+
+.texto-borde {
+  -webkit-text-stroke: 2px rgb(58, 58, 58);
+  color: rgb(255, 255, 255); 
 }
 .video-background { 
    
