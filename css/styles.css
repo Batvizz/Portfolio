@@ -7475,8 +7475,15 @@ button.bg-dark:focus {
   position: sticky !important;
 }
 
+.fixed-manual{
+  position:absolute;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
 .fixed-top {
-  position: fixed;
+  position:fixed;
   top: 0;
   right: 0;
   left: 0;
