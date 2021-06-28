@@ -539,11 +539,12 @@ pre code {
   overflow-y: scroll;
 }
 .fondoinicio-background{ 
-  background-image:url(../imagenes/portada.jpg);  
-  background-repeat: no-repeat;
+  background-image:url(../imagenes/portada2.jpg);  
   background-size:cover;
-  background-position:initial;
-  background-attachment: fixed;   
+  background-position:center;
+  background-clip:initial;
+  
+    
       
 }
 
