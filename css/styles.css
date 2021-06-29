@@ -539,8 +539,10 @@ pre code {
   overflow-y: scroll;
 }
 .fondoinicio-background{ 
-  background: no-repeat center url(../imagenes/portada1.jpg);  
+  background-image: url(../imagenes/portada1.jpg);
   background-size:cover;
+  background-repeat:no-repeat;
+
   
     
       
@@ -6276,7 +6278,7 @@ button.bg-light:focus {
   background-color: #343a40 !important;
 }
 .bg-grey{
-  background-color: #c0c0c0;
+  background-color:lightgray
 }
 
 
