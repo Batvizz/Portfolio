@@ -6277,8 +6277,12 @@ button.bg-light:focus {
 .bg-grey{
   background-color:lightgray
 }
+
+.bg-purple{
+  background-color:#6610f2;
+}
 .bg-body{
-  background-color: #f6fafd;
+  background-color: #4d067c;
 }
 
 
