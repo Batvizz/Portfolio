@@ -560,6 +560,13 @@ pre code {
   -ms-transform : scale(2); /* IE9 */
 }
 
+.zoom2{
+  transition: 1.5s ease;
+  
+}
+.zoom2:hover{
+  transform: scale(120%);
+}
 
 .texto-contraste{
   filter: brightness(50%);
