@@ -549,13 +549,13 @@ pre code {
    margin: auto;
    padding: auto;
    -moz-transition: 1.5s ease; /* Firefox */
-   -webkit-transition: 1.5s ease; /* Chrome - Safari */
+   -webkit-transition: 1.5s; /* Chrome - Safari */
    -o-transition: 1.5s ease; /* Opera */
 }
 .zoom:hover{
   transform : scale(7);
   -moz-transform : scale(2); /* Firefox */
-  -webkit-transform : scale(2); /* Chrome - Safari */
+  -webkit-transform :scale(2); /* Chrome - Safari */
   -o-transform : scale(2); /* Opera */
   -ms-transform : scale(2); /* IE9 */
 }
